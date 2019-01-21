@@ -2,7 +2,7 @@
 一款跨平台的CleverQQ插件
 # 目录
 
-# CleverQQHTTP用法
+## CleverQQHTTP用法
 
 [C#示例代码](https://github.com/vaemc/CleverQQHTTP/wiki/C%23%E7%A4%BA%E4%BE%8B)
 
