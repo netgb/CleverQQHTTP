@@ -4,6 +4,8 @@
 
 ## CleverQQHTTP用法
 
+[基本使用](https://github.com/vaemc/CleverQQHTTP/wiki/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+
 [C#示例代码](https://github.com/vaemc/CleverQQHTTP/wiki/C%23%E7%A4%BA%E4%BE%8B)
 
 [Java示例代码](https://github.com/vaemc/CleverQQHTTP/wiki/Java%E7%A4%BA%E4%BE%8B)
