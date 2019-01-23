@@ -1,8 +1,6 @@
 # CleverQQHTTP
 一款跨平台的CleverQQ插件
 
-# 目录
-
 ## CleverQQHTTP用法
 
 [基本使用](https://github.com/vaemc/CleverQQHTTP/wiki/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
