@@ -14,6 +14,9 @@
 
 * 接收QQ消息需要自己实现Socket客户端链接设置好的端口。接收到消息后数据以Json的格式发送给客户端。
 
+* 由于CleverHTTP还在测试阶段，很多异常都没有捕捉。只要正确使用（post数据对应API的参数、URL的API地址对应官方的API名称……）就不会引起插件崩溃。注意只要一但发送请求后没有响应（也就是发生了错误），就应当重启CleverQQ重新开启插件。
+
+
 ![kVLuQS.jpg](https://s2.ax1x.com/2019/01/24/kVLuQS.jpg)
 
 ![kVqi40.jpg](https://s2.ax1x.com/2019/01/24/kVqi40.jpg)
