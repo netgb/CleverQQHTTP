@@ -1,5 +1,24 @@
 # CleverQQHTTP
 一款跨平台的CleverQQ插件
+
+
+* 必须以管理员身份运行CleverQQ，然后启动CleverQQHTTP插件。
+
+* 所有的API的参数均以Json格式Post提交
+
+* 例如http://localhost:8087/api/Api_SendMsg 其中`Api_SendMsg`为接口名称，他需要的参数是机器人的QQ号，以Json的形式提交参数
+`{"RobotQQ":"1740531365"}` 具体的接口和对应的参数名可以查看官方API文档。
+* ***API的名称和参数名称完全和官方一致。***
+
+* 要在小程序使用CleverQQHTTP，需勾选 **启用HTTPS** ，并申请证书，证书名后缀 **pfx**。将证书放在CleverQQ的 **运行目录** ，注意是CleverQQ的 **运行目录** 不是插件的目录！
+
+* 接收QQ消息需要自己实现Socket客户端链接设置好的端口。接收到消息后数据以Json的格式发送给客户端。
+
+![kVLuQS.jpg](https://s2.ax1x.com/2019/01/24/kVLuQS.jpg)
+
+![kVqi40.jpg](https://s2.ax1x.com/2019/01/24/kVqi40.jpg)
+
+
 # 目录
 
 ## CleverQQHTTP用法
